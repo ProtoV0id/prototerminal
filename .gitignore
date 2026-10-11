@@ -1,0 +1,50 @@
+# Private local configuration (copy the tracked example to create this)
+/wifi_config.h
+.env
+.env.*
+!.env.example
+/secrets.h
+/credentials.h
+/api_secrets.h
+/api_config.h
+
+# Local certificate/private-key files
+*.pem
+*.p12
+*.pfx
+*.key
+
+# Arduino generated builds and editor artifacts
+/build/
+/build-*/
+/arduino_build_*/
+/arduino_cache_*/
+/.arduinoIDE/
+*.elf
+*.hex
+*.bin
+*.map
+*.o
+*.d
+
+# Editors and operating systems
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Logs, scratch, local backup files
+*.log
+*.tmp
+*.bak
+*.backup
+*.old
+
+# Python helper environments
+__pycache__/
+*.pyc
+.venv/
+venv/
